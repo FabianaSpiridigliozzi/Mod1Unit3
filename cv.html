@@ -13,7 +13,7 @@
       <p>
         The Brain, or "Brain" for short, is a genetically enhanced laboratory
         mouse.<br />
-        His plan is to take over the world. For that purpose, he devises a plan
+        He wants to take over the world. For that purpose, he devises a plan
         every night with the help of his faithful companion, Pinky. <br />
         He usually fails.
       </p>
@@ -65,14 +65,41 @@
     <div id="fanmail">
       <h4>Contact</h4>
       <p>
-        Do you want to get in contact with The Brain to express your utter
+        Do you want to get in contact with The Brain to express your profuse
         admiration? <br />
         Do you want to become one of The Brain's minions and help him take over
         the world? <br />
         Can't wait to have him as a ruler and obey every single command ? <br />
         Then, let him know! <br />
-        Complete this form to get in contact with him
+        Complete this form to get in contact with him:
       </p>
+      <form action="">
+        <label for="fname">First name: </label><br />
+        <input type="text" id="fname" name="fname" /> <br />
+        <label for="sname">Surname: </label> <br />
+        <input type="text" id="sname" name="sname" /><br />
+        <label for="email">E-mail: </label> <br />
+        <input type="email" id="email" name="email" /> <br />
+        <p>How much of a fan are you?</p>
+        <input type="radio" id="bigfan" name="fan" value="bigfan" />
+        <label for="bigfan">I'm a big fan</label>
+        <input type="radio" id="moderatefan" name="fan" value="moderatefan" />
+        <label for="moderatefan">I'm a moderate fan</label>
+        <input type="radio" id="nofan" name="fan" value="nofan" />
+        <label for="nofan">I'm not a fan</label>
+        <p>How many seasons of the show have you watched?</p>
+        <input type="checkbox" id="season1" name="season1" value="season1" />
+        <label for="season1">Season 1</label> <br />
+        <input type="checkbox" id="season2" name="season2" value="season2" />
+        <label for="season2">Season 2</label> <br />
+        <input type="checkbox" id="season3" name="season3" value="season3" />
+        <label for="season3">Season 3</label> <br />
+        <input type="checkbox" id="season4" name="season4" value="season4" />
+        <label for="season4">Season 4</label> <br />
+        <p>Write a message to The Brain</p>
+        <textarea name="message" rows="10" cols="50"></textarea> <br />
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   </body>
 </html>
